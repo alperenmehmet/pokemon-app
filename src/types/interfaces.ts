@@ -3,6 +3,8 @@ export interface IState extends IPayloadProps{
     error:string,
     pokemon:IPokemon
     offset:number
+    favourites:any[]
+
 }
 
 export interface IPokemonCard{
@@ -29,5 +31,5 @@ export interface Sprites {
     front_female?: any;
     front_shiny?: string;
     front_shiny_female?: any;
+    other?:any
 }
-
